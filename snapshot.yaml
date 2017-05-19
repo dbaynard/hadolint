@@ -1,0 +1,41 @@
+resolver: lts-8.14
+
+compiler: ghc-8.0.1
+
+packages:
+# ghc-8.0.1
+- ghc-boot-8.0.1
+- ghc-boot-th-8.0.1
+- ghci-8.0.1
+# Newer than stackage
+- aeson-1.2.0.0
+- haskell-src-exts-1.19.1
+- hlint-2.0.5
+- persistent-2.7.0
+- persistent-2.7.0
+- persistent-template-2.5.2
+- servant-0.10
+- servant-0.10
+- servant-server-0.10
+- servant-server-0.10
+# Not on stackage
+- GoogleChart-0.2
+- derive-storable-0.1.0.6
+- dhall-1.2.0
+- digestive-functors-0.8.2.0
+- digestive-functors-lucid-0.0.0.4
+- friday-0.2.3.1
+- haddock-api-2.17.4
+- helium-overture-1.0.0
+- io-capture-1.0.0
+- json-autotype-1.0.15
+- latex-formulae-image-0.1.1.2
+- latex-formulae-pandoc-0.2.0.4
+- lifted-protolude-0.1.6
+- plots-0.1.0.2
+- ratio-int-0.1.2
+- roman-numerals-0.5.1.5
+- samtools-0.2.4.3
+- skylighting-0.3.3
+- timezone-olson-th-0.1.0.2
+- vgrep-0.2.0.0
